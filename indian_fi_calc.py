@@ -180,7 +180,7 @@ with st.sidebar:
     st.markdown(f"**Debt Allocation:** {100 - equity_allocation_pct}%")
 
     st.header("2. Timeframe")
-    time_horizon = st.slider("Retirement Duration (Years)", 10, 50, 20)
+    time_horizon = st.slider("Retirement Duration (Years)", 10, 29, 20)
 
     st.header("3. Spending Plan")
     spending_plan = st.radio(
@@ -306,3 +306,4 @@ with st.expander("⚠️ Click here to understand the Methodology and Assumption
     **Disclaimer:** This is an educational tool based on historical data. Past performance is not a guarantee of future results. The model makes simplifying assumptions (e.g., annual rebalancing, no taxes). Consult a financial advisor for personalized advice.
 
     """)
+
